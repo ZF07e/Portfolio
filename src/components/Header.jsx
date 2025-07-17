@@ -9,7 +9,7 @@ function Header() {
         </div>
 
         <div className='flex items-center justify-center'>
-            <div className='grid grid-cols-4 divide-x-2 border-2 p-2 rounded text-center font-medium cursor-pointer'>
+            <div className='grid grid-cols-4 divide-x-2 border-2 p-2 rounded text-center font-medium cursor-pointer bg-[url(./src/assets/dot_grid.png)] bg-center bg-cover bg-repeat'>
                 <div><nav className={nav_class}>Home</nav></div>
                 <div><nav className={nav_class}>About</nav></div>
                 <div><nav className={nav_class}>Stack</nav></div>
