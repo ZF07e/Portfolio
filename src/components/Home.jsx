@@ -3,9 +3,9 @@ import React from 'react'
 function Home() {
   return (
     <section className='w-full h-dvh flex items-center'>
-        <div className="bg-[url(./src/assets/square_grid_5x5.png)] bg-cover bg-center w-full h-[50%] grid grid-cols-2 gap-100 border-y-1">
+        <div className="bg-[url(./src/assets/square_grid_5x5.png)] bg-center w-full h-[50%] grid grid-cols-2 gap-100 border-y-1">
             <div className='my-auto ms-auto'>
-                <div className=''>
+                <div>
                     <h2 className='text-3xl font-bold'>Marius Brylle U. Pastoral</h2>
                     <p className='text-2xl font-bold'>BS Information Technology</p>
                     <h5 className='text-xl font-bold'>Front-End Developer</h5>
