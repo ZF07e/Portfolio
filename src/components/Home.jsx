@@ -2,13 +2,21 @@ import React from 'react'
 
 function Home() {
   return (
-    <section className='bg-stone-800 w-full h-dvh flex items-center'>
-        <div className="bg-stone-400 w-full h-[50%]  ">
-            <div>
-
+    <section className='w-full h-dvh flex items-center'>
+        <div className="bg-[url(./src/assets/square_grid_5x5.png)] bg-cover bg-center w-full h-[50%] grid grid-cols-2 gap-100 border-y-1">
+            <div className='my-auto ms-auto'>
+                <div className=''>
+                    <h2 className='text-3xl font-bold'>Marius Brylle U. Pastoral</h2>
+                    <p className='text-2xl font-bold'>BS Information Technology</p>
+                    <h5 className='text-xl font-bold'>Front-End Developer</h5>
+                </div>
+                <div>
+                
+                </div>
             </div>
-            <div>
-                <img src="" alt="" />
+
+            <div className='my-auto me-auto'>
+                <img src="./src/assets/profile.jpg" className="aspect-square w-50 animate-(--animate-blob-effect) transition-(--profile) shadow-md/30" alt="" />
             </div>
         </div>
     </section>

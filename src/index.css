@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@theme{
+    --animate-blob-effect: blob_effect 3.5s ease-in-out infinite;
+    --profile: transition: all 0.45s ease-in-out;
+
+    @keyframes blob_effect {
+        0%, 100%{
+            border-radius: 70% 30% 71% 29% / 41% 71% 29% 59%;
+        }
+        50%{
+            border-radius: 25% 75% 25% 75% / 75% 34% 66% 25%;
+        }
+    }
+}
+
+
