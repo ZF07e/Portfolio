@@ -2,6 +2,7 @@
 
 @theme{
     --animate-blob-effect: blob_effect 3.5s ease-in-out infinite;
+    --animate-slide_up: slide_up 0.20s ease-in forwards;
     --profile: transition: all 0.45s ease-in-out;
 
     @keyframes blob_effect {
@@ -12,6 +13,11 @@
             border-radius: 25% 75% 25% 75% / 75% 34% 66% 25%;
         }
     }
+
+    @keyframes slide_up {
+        to{
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
 }
-
-
