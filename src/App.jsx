@@ -10,12 +10,12 @@ function App() {
   return (
     <main className="text-neutral-900">
       <Header />
-      <Home />
+      {/* <Home />
       <About />
       <Stack />
       <Projects />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </main>
   )
 }
