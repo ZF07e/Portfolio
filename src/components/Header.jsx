@@ -4,8 +4,8 @@ function Header() {
     const nav_class = 'px-12 py-2 hover:translate-y-[-2px] hover:underline transition';
   return (
     <header className="fixed z-100 top-0 left-0 right-0 h-20 mt-4 px-16 grid grid-cols-[auto_1fr_auto]">
-        <div className='flex items-center justify-center'>
-            <img src="./src/assets/racoon.png" className='w-16' alt="" />
+        <div className='h-full flex items-center justify-center'>
+            <img src="./src/assets/racoon1.png" className='w-16 aspect-square mt-2' alt="" />
         </div>
 
         <div className='flex items-center justify-center'>
