@@ -9,7 +9,7 @@ function Header() {
     }
     
     const nav_container2_class = {
-        mobile: `grid grid-cols-4 divide-x-2 border-t-2 p-2 text-center font-medium cursor-pointer w-full bg-neutral-50] 
+        mobile: `grid grid-cols-4 divide-x-2 border-t-2 p-2 text-center font-medium cursor-pointer w-full bg-stone-50 
                 dark:border-neutral-50 dark:divide-neutral-50 dark:text-neutral-50 dark:bg-neutral-800`,
 
         tablet: "md:border-2 md:rounded md:w-auto"
