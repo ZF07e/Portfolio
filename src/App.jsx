@@ -10,9 +10,9 @@ function App() {
   return (
     <main className="text-neutral-900">
       <Header />
-      {/* <Home />
+      <Home />
       <About />
-      <Stack />
+      {/* <Stack />
       <Projects />
       <Contact />
       <Footer /> */}
