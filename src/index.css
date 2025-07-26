@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 @theme{
     --animate-blob-effect: blob_effect 3.5s ease-in-out infinite;
     --animate-slide_up: slide_up 0.20s ease-in forwards;
     --profile: transition: all 0.45s ease-in-out;
+    --font-roboto: "Roboto", sans-serif;
 
     @keyframes blob_effect {
         0%, 100%{
