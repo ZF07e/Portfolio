@@ -8,7 +8,7 @@ function Footer() {
 
 
   return (
-    <footer className='h-50 w-full bg-neutral-200 py-4 px-8 border-t-1 border-neutral-400 text-center'>
+    <footer className='h-50 w-full bg-neutral-200 dark:bg-neutral-950 py-4 px-8 border-t-1 border-neutral-400 text-center dark:text-neutral-100'>
       <div className='w-full h-full flex flex-col items-center justify-center'>
         <ContactLinks />
         <p className='mt-2'>{copyright_format}</p>
