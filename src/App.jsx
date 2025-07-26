@@ -11,11 +11,10 @@ function App() {
     <main className="text-neutral-900">
       <Header />
       <Home />
-      <About />
-      {/* <Stack />
+      <Stack />
       <Projects />
       <Contact />
-      <Footer /> */}
+      <Footer />
     </main>
   )
 }
