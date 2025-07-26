@@ -3,10 +3,10 @@ import Stack_Card from './Stack_Card.jsx'
 
 function Stack() {
   return (
-    <section className='h-dvh border-t-1 py-16'>
+    <section className='md:h-dvh py-16 dark:text-neutral-50'>
         <h2 className="text-2xl font-bold text-center">My Stack</h2>
         
-        <section className="grid grid-cols-5 gap-9 px-20 mt-12">
+        <section className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-9 px-8 sm:px-12 md:px-20 mt-12">
             <Stack_Card src={'html.png'} stack_name={"HTML"} />
             <Stack_Card src={'css.png'} stack_name={"CSS"} />
             <Stack_Card src={'js.png'} stack_name={"JavaScript"} />
