@@ -4,7 +4,7 @@ import Stack_Badge from './Stack_Badge.jsx';
 
 function Project_Card({info}) {
   const primary_button = 'bg-neutral-800 text-neutral-50 font-medium px-8 py-1 rounded cursor-pointer hover:bg-neutral-900 active:opacity-85';
-  const secondary_button = 'bg-neutral-200 font-medium px-4 py-1 rounded cursor-pointer hover:bg-neutral-300 active:bg-neutral-400';
+  const secondary_button = 'bg-neutral-200 font-medium px-4 py-1 rounded cursor-pointer hover:bg-neutral-300 active:bg-neutral-400 text-neutral-950';
   const tertiary_button = 'border-1 border-neutral-400 font-medium px-4 py-1 rounded cursor-pointer hover hover:bg-neutral-100 active:bg-neutral-200';
   const button_order = [primary_button, secondary_button, tertiary_button];
 
@@ -34,7 +34,7 @@ function Project_Card({info}) {
             <ul className='list-disc list-outside ms-5 my-4'>
               {
                 info.body.map((obj, idx)=>{
-                  return <li key={idx} className='text-neutral-800 italic'>{`"${obj}"`}</li>
+                  return <li key={idx} className='text-neutral-800 dark:text-neutral-400 italic'>{`"${obj}"`}</li>
                 })
               }
             </ul>
