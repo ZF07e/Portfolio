@@ -2,63 +2,45 @@ import {useEffect, useState} from 'react'
 
 // Header component of the website
 function Header() {
-    //Navigation class
-    const nav_container_class = {
-        mobile: "flex items-end justify-center order-3 col-span-2 w-full",
-        tablet: "md:order-2 md:col-span-1 md:items-center md:w-auto"
-    }
-    
-    const nav_container2_class = {
-        mobile: `grid grid-cols-4 divide-x-2 border-t-2 p-2 text-center font-medium cursor-pointer w-full bg-stone-50 
-                dark:border-neutral-50 dark:divide-neutral-50 dark:text-neutral-50 dark:bg-neutral-800`,
+    const [active, setActive] = useState(false);
 
-        tablet: "md:border-2 md:rounded md:w-auto"
-    }
-
-    const nav_class = {
-        mobile: "py-2 hover:translate-y-[-2px] hover:underline transition",
-        tablet: "md:px-8"
-    };
-
-    //Header class
-    const header_class = {
-        mobile: "fixed z-100 top-0 left-0 right-0 bottom-0 mt-2 grid grid-cols-2 grid-rows-[auto_1fr]",
-        tablet: "md:grid-rows-1 md:grid-cols-[auto_1fr_auto] md:mt-4 md:bottom-auto md:gap-4 md:px-16 md:h-20"
-    }
-    
-    //Logo class
-    const logo_container_class = {
-        mobile: "h-full flex items-center justify-start ps-4 order-1"
-    }
-
-    //Dark mode toggle class
-    const dark_container_class ={
-        mobile: "flex items-center justify-end pe-4 order-2"
+    const isActive = ()=>{
+        if(!active){
+            setActive(true);
+        }
+        else{
+            setActive(false);
+        }
     }
 
     //Elements for header
     return (
-        // fixed z-100 top-0 left-0 right-0 h-20 mt-4 px-16 grid grid-cols-[auto_1fr_auto]
-        <header className={`${header_class.mobile} ${header_class.tablet}`}>
-
-            <div className={logo_container_class.mobile}>
-                <div className="w-16 h-16 mt-2 bg-[url(./src/assets/racoon1.png)] bg-center bg-cover bg-no-repeat dark:bg-[url(./src/assets/racoon1_light.png)]"></div>
+        <header className={`fixed top-0 left-0 right-0 dark:text-neutral-50 bg-neutral-50 dark:bg-neutral-900 
+                           ${active? "h-auto": "h-14"} z-100 grid grid-cols-2 md:grid-cols-[auto_auto_auto] px-4 border-b overflow-hidden`}>
+            <div>
+                <div className="w-12 h-12 mt-2 bg-[url(./src/assets/racoon1.png)] bg-center bg-cover bg-no-repeat dark:bg-[url(./src/assets/racoon1_light.png)]"></div>
             </div>
 
-            <div className={`${nav_container_class.mobile} ${nav_container_class.tablet}`}>
-                <div className={`${nav_container2_class.mobile} ${nav_container2_class.tablet}`}>
-                    <div><nav className={`${nav_class.mobile} ${nav_class.tablet}`}>Home</nav></div>
-                    <div><nav className={`${nav_class.mobile} ${nav_class.tablet}`}>About</nav></div>
-                    <div><nav className={`${nav_class.mobile} ${nav_class.tablet}`}>Stack</nav></div>
-                    <div><nav className={`${nav_class.mobile} ${nav_class.tablet}`}>Projects</nav></div>
+            <div className='flex md:hidden h-full w-full items-center'>
+                <div className="ms-auto border p-2 rounded-full" onClick={()=>{isActive()}}>
+                    <div className="w-5 aspect-square bg-[url(./src/assets/menu.png)] dark:bg-[url(./src/assets/menu_light.png)] bg-center bg-cover bg-no-repeat"></div>
                 </div>
             </div>
 
-            <div className={`${dark_container_class.mobile}`}>
-                <div className='border-2 dark:border-neutral-50 rounded-full p-2 cursor-pointer'>
-                    <div className='w-5 h-5 bg-[url(./src/assets/dark_mode.png)] bg-center bg-cover bg-no-repeat dark:bg-[url(./src/assets/light_mode.png)]' ></div>
-                </div>
+            <div className='col-span-2 p-2 my-2 rounded md:col-span-1 md:p-0 md:m-0 bg-neutral-950 md:bg-neutral-900'>
+                {/* gap-12 */}
+                <nav className='flex flex-col md:flex-row gap-4 md:gap-8 md:justify-center md:items-center items-end font-roboto font-medium h-full w-full'>   
+                    <a href="">Home</a>
+                    <a href="">Stack</a>
+                    <a href="">Projects</a>
+                </nav>
             </div>
+
+             <div className='hidden md:flex items-center justify-end pe-4 order-2'>
+                 <div className='border dark:border-neutral-50 rounded-full p-2 cursor-pointer'>
+                     <div className='w-5 h-5 bg-[url(./src/assets/dark_mode.png)] bg-center bg-cover bg-no-repeat dark:bg-[url(./src/assets/light_mode.png)]' ></div>
+                 </div>
+             </div>
         </header>
     )
 }
