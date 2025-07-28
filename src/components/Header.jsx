@@ -27,7 +27,7 @@ function Header() {
                 </div>
             </div>
 
-            <div className='col-span-2 p-2 my-2 rounded md:col-span-1 md:p-0 md:m-0 bg-neutral-950 md:bg-neutral-900'>
+            <div className='col-span-2 p-2 my-2 rounded md:col-span-1 md:p-0 md:m-0 dark:bg-neutral-950 md:dark:bg-neutral-900'>
                 {/* gap-12 */}
                 <nav className='flex flex-col md:flex-row gap-4 md:gap-8 md:justify-center md:items-center items-end font-roboto font-medium h-full w-full'>   
                     <a href="">Home</a>
