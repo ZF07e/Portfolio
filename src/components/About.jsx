@@ -2,12 +2,27 @@ import React from 'react'
 
 function About() {
   return (
-    <section className='h-dvh w-full border-t-1'>
-        <div className='h-full px-20 flex items-center'>
-            <div className='text-center'>
-                <h2 className='my-auto text-2xl font-bold'>About Me</h2>
-                <p className='mt-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet aperiam reprehenderit mollitia sapiente ad veritatis excepturi vel illo tempora, quae, rem, perferendis nulla neque. Voluptatum itaque a porro quia doloremque!</p>
-                <p className="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur reiciendis dolor magnam deserunt porro. Asperiores, sequi minima suscipit eligendi mollitia ipsum repellat maiores iusto inventore aperiam laborum rem consectetur laudantium!</p>
+    <section className='w-full mt-12 md:mt-0 md:mb-20 px-8 md:px-20'>
+        <div className='dark:text-neutral-50'>
+            <div className='grid grid-cols-1 md:grid-cols-2'>
+                <div className='text-center my-auto'>
+                  <h2 className='my-auto text-4xl font-bold'>What I do?</h2>
+                </div>
+                
+
+                <div className='text-lg dark:text-neutral-50 mt-4'>
+                  <ul className='list-disc list-outside ms-4 gap-8 grid grid-cols-1 grid-rows-[auto_auto]'>
+                    <li>
+                      <div className='px-4'>Build responsive and accessible web interface.</div>
+                    </li>
+                    <li>
+                      <div className='px-4'>Turn UI/UX designs into code.</div>
+                    </li>
+                    <li>
+                      <div className='px-4'>Ensure cross-browser and cross-device compatibility.</div>
+                    </li>
+                  </ul>
+                </div>
             </div>
         </div>
     </section>
