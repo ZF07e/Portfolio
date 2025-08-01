@@ -5,7 +5,7 @@ import ContactLinks from './ContactLinks.jsx'
 function Home() {
     //Elements for home
     return (
-        <section className='w-full'>
+        <section id='Home_section' className='w-full'>
 
             <div className={'w-full h-[70%] grid grid-rows-2 md:py-40 | md:h-[50%] md:grid-rows-1 md:grid-cols-2 md:gap-50 md:px-12'}>
 

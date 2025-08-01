@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <section className='w-full mb-12 md:mb-20 border-y dark:text-neutral-50 dark:border-none md:px-40'>
+    <section id='Contact_section' className='w-full mb-12 md:mb-20 border-y dark:text-neutral-50 dark:border-none md:px-40'>
       <div className='bg-[url(./src/assets/dot_grid.png)] dark:bg-[url()] bg-center bg-cover bg-no-repeat'>      
         <div className='grid grid-rows-2 gap-20 w-full text-center md:grid-rows-1 md:grid-cols-2 md:gap-0 py-12 '>
           <div className='flex flex-col items-center justify-center order-1 md:order-0'>
