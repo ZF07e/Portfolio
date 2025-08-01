@@ -5,7 +5,7 @@ import portfolio from '../../portfolio-data.json';
 function Projects() {
     const projects = portfolio.Projects;
     return (
-        <section id='Project_section' className="py-16 md:px-8 dark:text-neutral-50">
+        <section id='Project_section' className="md:px-8 dark:text-neutral-50">
             <div>
                 <h2 className="font-bold text-2xl text-center">Projects</h2>
             </div>
