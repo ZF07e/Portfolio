@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <section id='About_section' className='w-full mt-12 md:mt-0 md:mb-20 px-8 md:px-20'>
+    <section id='About_section' className='w-full h-dvh flex items-center my-12 px-8 md:px-20'>
         <div className='dark:text-neutral-50'>
             <div className='grid grid-cols-1 md:grid-cols-2'>
                 <div className='text-center my-auto'>
