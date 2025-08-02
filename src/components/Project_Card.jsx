@@ -3,12 +3,11 @@ import Stack_Badge from './Stack_Badge.jsx';
 
 
 function Project_Card({info}) {
-  //py-8 md:px-4 grid grid-cols-[auto_1fr] gap-8 hover:bg-neutral-900 
   return (
     <div className='relative md:rounded transition grid 
                     grid-rows-[auto_1fr] md:grid-rows-1 gap-y-4 gap-x-4
                     grid-cols-1 md:grid-cols-[auto_1fr] 
-                    dark:bg-neutral-900/40 pt-4 px-4'>
+                    bg-neutral-200/70 dark:bg-neutral-900/40 pt-4 px-4'>
         <div className='mx-auto'>
             <img src={`/Portfolio/projects/${info.image}`} className='aspect-square w-20 rounded mt-1' alt="" />
         </div>
