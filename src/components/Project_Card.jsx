@@ -10,7 +10,7 @@ function Project_Card({info}) {
                     grid-cols-1 md:grid-cols-[auto_1fr] 
                     dark:bg-neutral-900/40 pt-4 px-4'>
         <div className='mx-auto'>
-            <img src={`../src/assets/projects/${info.image}`} className='aspect-square w-20 rounded mt-1' alt="" />
+            <img src={`/Portfolio/projects/${info.image}`} className='aspect-square w-20 rounded mt-1' alt="" />
         </div>
 
         <div>
