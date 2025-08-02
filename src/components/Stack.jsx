@@ -3,7 +3,7 @@ import Stack_Card from './Stack_Card.jsx'
 
 function Stack() {
   return (
-    <section id='stack_section' className='dark:text-neutral-50 md:mb-16'>
+    <section id='stack_section' className='dark:text-neutral-50 pb-16'>
         <h2 className="text-2xl font-bold text-center">My Stack</h2>
         <section className='px-8 md:px-16 lg:px-40 mt-12'>
 
