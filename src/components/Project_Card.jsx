@@ -4,10 +4,10 @@ import Stack_Badge from './Stack_Badge.jsx';
 
 function Project_Card({info}) {
   return (
-    <div className='relative md:rounded transition grid 
+    <a className='relative md:rounded transition grid 
                     grid-rows-[auto_1fr] md:grid-rows-1 gap-y-4 gap-x-4
                     grid-cols-1 md:grid-cols-[auto_1fr] 
-                    bg-neutral-200/70 dark:bg-neutral-900/40 pt-4 px-4'>
+                    bg-neutral-200/70 dark:bg-neutral-900/40 pt-4 px-4' href={info.link} target='_blank'>
         <div className='mx-auto'>
             <img src={`/Portfolio/projects/${info.image}`} className='aspect-square w-20 rounded mt-1' alt="" />
         </div>
@@ -36,7 +36,7 @@ function Project_Card({info}) {
 
         <div className='absolute right-0 m-2 mt-2'>
         </div>
-    </div>
+    </a>
   )
 }
 

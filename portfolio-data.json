@@ -6,17 +6,7 @@
             "role": "Front-End",
             "body": ["My First large project and Capstone Project for IT Capstone 1-2.", "A web application designed to assist STI College Alabang's clubs and organizations in managing recruitment, events, meetings, and document processing through e-signatures/digital signing."],
             "stack_used": ["HTML", "CSS", "JavaScript", "jQuery", "BootStrap", "Full Calendar"],
-            "links": [ 
-                {
-                    "link_text": "View Website",
-                    "link_url": "#"
-                },
-                {
-                    "link_text": "GitHub",
-                    "link_url": "#"
-                }
-            ],
-            "images": [""]
+            "link": "https://stica-coms.com"
 
         },
         {
@@ -25,17 +15,7 @@
             "role": "Front-End",
             "body": ["My refresher project after OJT to apply what I’ve learned in learning React, Tailwind, Axios, and Express.js."],
             "stack_used": ["JavaScript", "React", "Tailwindcss", "Node/ExpressJS", "Axios"] ,
-            "links": [
-                {
-                    "link_text": "View Website",
-                    "link_url": "#"
-                },
-                {
-                    "link_text": "GitHub",
-                    "link_url": "#"
-                }
-            ],
-            "images": ["", "", ""]
+            "link": "https://github.com/ZF07e/P2P_Clone_Modified"
         },
         {
             "image": "NetFlix.png",
@@ -43,13 +23,7 @@
             "role": "Full Stack",
             "body": ["Our \"Practical Exam\" where we need to build a login/sign up page of a known website with database."],
             "stack_used": ["HTML", "CSS", "JavaScript", "PHP", "MYSQL"],
-            "links": [
-                {
-                    "link_text": "GitHub",
-                    "link_url": "#"
-                }
-            ],
-            "images": []
+            "link": "https://github.com/ZF07e/NETFLIX-Clone"
         },
         {
             "image": "Java.png",
@@ -57,13 +31,7 @@
             "role": "Back-End",
             "body": ["A simple console app used to sort the active directory and segregate every file based on their file extension using Java only "],
             "stack_used": ["Java"],
-            "links": [
-                {
-                    "link_text": "GitHub",
-                    "link_url": "#"
-                }
-            ],
-            "images": []
+            "link": "https://github.com/ZF07e/File-Sorter_Console-Version"
         }
         
     ]
