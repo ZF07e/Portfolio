@@ -34,7 +34,7 @@ function Header() {
         <header className={`fixed top-0 left-0 right-0 dark:text-neutral-50 bg-neutral-50 dark:bg-neutral-900 
                            ${active? "h-auto": "h-14"} z-100 grid grid-cols-2 md:grid-cols-[auto_auto_auto] px-4 border-b overflow-hidden`}>
             <div>
-                <div className={`w-12 h-12 mt-2 bg-[url(/src/assets/racoon.png)] bg-center bg-cover bg-no-repeat dark:bg-[url(/src/assets/racoon1_light.png)]`}></div>
+                <div className={`w-12 h-12 mt-2 bg-[url(/src/assets/racoon1.png)] bg-center bg-cover bg-no-repeat dark:bg-[url(/src/assets/racoon1_light.png)]`}></div>
             </div>
 
             <div className='flex md:hidden h-full w-full items-center'>
