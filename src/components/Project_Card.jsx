@@ -10,13 +10,13 @@ function Project_Card({info}) {
                     grid-cols-1 md:grid-cols-[auto_1fr] 
                     dark:bg-neutral-900/40 pt-4 px-4'>
         <div className='mx-auto'>
-            <img src={`./src/assets/projects/${info.image}`} className='aspect-square w-20 rounded mt-1' alt="" />
+            <img src={`/src/assets/projects/${info.image}`} className='aspect-square w-20 rounded mt-1' alt="" />
         </div>
 
         <div>
             <h4 className='font-bold text-xl'>{`${info.title} (${info.role})`}
               <span className='inline-block px-2'>
-                <div className="w-4 aspect-square bg-[url(./src/assets/link.png)] dark:bg-[url(./src/assets/link_light.png)] bg-center bg-cover bg-no-repeat"></div>
+                <div className="w-4 aspect-square bg-[url(/src/assets/link.png)] dark:bg-[url(/src/assets/link_light.png)] bg-center bg-cover bg-no-repeat"></div>
               </span>
             </h4>
             <div className='flex gap-2 my-4 flex-wrap'>
