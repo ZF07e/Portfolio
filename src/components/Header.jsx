@@ -47,12 +47,12 @@ function Header() {
             <div className='col-span-2 p-2 my-2 rounded md:col-span-1 md:p-0 md:m-0 dark:bg-neutral-950 md:dark:bg-neutral-900'>
                 {/* gap-12 */}
                 <nav className='flex flex-col md:flex-row gap-4 md:gap-8 md:justify-center md:items-center items-end font-roboto font-medium h-full w-full'>   
-                    <a href="#Home_section">Home</a>
-                    <a href="#About_section">What i do?</a>
-                    <a href="#stack_section">Stack</a>
-                    <a href="#Project_section">Projects</a>
-                    <a href="#Contact_section">Resume</a>
-                    <a href="#Contact_section">Contact</a>
+                    <a href="#Home_section" className='cursor-pointer'>Home</a>
+                    <a href="#About_section" className='cursor-pointer'>What i do?</a>
+                    <a href="#stack_section" className='cursor-pointer'>Stack</a>
+                    <a href="#Project_section" className='cursor-pointer'>Projects</a>
+                    <a href="#Contact_section" className='cursor-pointer'>Resume</a>
+                    <a href="#Contact_section" className='cursor-pointer'>Contact</a>
                 </nav>
             </div>
 
