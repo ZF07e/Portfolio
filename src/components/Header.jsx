@@ -44,15 +44,20 @@ function Header() {
                 </div>
             </div>
 
-            <div className='col-span-2 p-2 my-2 rounded md:col-span-1 md:p-0 md:m-0 dark:bg-neutral-950 md:dark:bg-neutral-900'>
+            <div className='col-span-2 p-2 my-2 rounded md:col-span-1 md:p-0 md:m-0 bg-neutral-200 md:bg-neutral-50 dark:bg-neutral-950 md:dark:bg-neutral-900'>
                 {/* gap-12 */}
                 <nav className='flex flex-col md:flex-row gap-4 md:gap-8 md:justify-center md:items-center items-end font-roboto font-medium h-full w-full'>   
-                    <a href="#Home_section" className='cursor-pointer'>Home</a>
-                    <a href="#About_section" className='cursor-pointer'>What i do?</a>
-                    <a href="#stack_section" className='cursor-pointer'>Stack</a>
-                    <a href="#Project_section" className='cursor-pointer'>Projects</a>
-                    <a href="#Contact_section" className='cursor-pointer'>Resume</a>
-                    <a href="#Contact_section" className='cursor-pointer'>Contact</a>
+                    <a href="#Home_section" className='cursor-pointer' onClick={()=>{isActive()}}>Home</a>
+                    <a href="#About_section" className='cursor-pointer' onClick={()=>{isActive()}}>What i do?</a>
+                    <a href="#stack_section" className='cursor-pointer' onClick={()=>{isActive()}}>Stack</a>
+                    <a href="#Project_section" className='cursor-pointer' onClick={()=>{isActive()}}>Projects</a>
+                    <a href="#Contact_section" className='cursor-pointer' onClick={()=>{isActive()}}>Resume</a>
+                    <a href="#Contact_section" className='cursor-pointer' onClick={()=>{isActive()}}>Contact</a>
+                    <div className='flex items-center justify-end md:hidden'>
+                        <div className='border dark:border-neutral-50 rounded-full p-2 cursor-pointer' onClick={()=>{change_mode()}}>
+                            <div className='w-5 h-5 bg-[url(/src/assets/dark_mode.png)] bg-center bg-cover bg-no-repeat dark:bg-[url(/src/assets/light_mode.png)]' ></div>
+                        </div>
+                    </div>
                 </nav>
             </div>
 
