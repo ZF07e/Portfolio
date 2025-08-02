@@ -29,7 +29,7 @@ function Home() {
                 </div>
                 
                 <div className='my-auto mx-auto md:mx-0 md:me-auto md:ms-20 md:order-2'>
-                    <img src="../src/assets/profile.jpg" className="aspect-square w-50 md:w-60 animate-(--animate-blob-effect) transition-(--profile) shadow-lg/50" alt="" />
+                    <img src="/assets/profile.jpg" className="aspect-square w-50 md:w-60 animate-(--animate-blob-effect) transition-(--profile) shadow-lg/50" alt="" />
                 </div>
 
             </div>
