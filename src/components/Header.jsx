@@ -21,7 +21,6 @@ function Header() {
     }, [mode]);
 
     const change_mode = ()=>{
-        console.log("Mode changed! to " + document.cookie + " " + html.dataset.theme)
         if(html.dataset.theme == "dark"){
             setMode("theme=light");
         }
