@@ -35,12 +35,12 @@ function Header() {
         <header className={`fixed top-0 left-0 right-0 dark:text-neutral-50 bg-neutral-50 dark:bg-neutral-900 
                            ${active? "h-auto": "h-14"} z-100 grid grid-cols-2 md:grid-cols-[auto_auto_auto] px-4 border-b overflow-hidden`}>
             <div>
-                <div className={`w-12 h-12 mt-2 bg-[url(./src/assets/racoon1.png)] bg-center bg-cover bg-no-repeat dark:bg-[url(../assets/racoon1_light.png)]`}></div>
+                <div className={`w-12 h-12 mt-2 bg-[url(./dist/assets/racoon1.png)] bg-center bg-cover bg-no-repeat dark:bg-[url(../assets/racoon1_light.png)]`}></div>
             </div>
 
             <div className='flex md:hidden h-full w-full items-center'>
                 <div className="ms-auto border p-2 rounded-full" onClick={()=>{isActive()}}>
-                    <div className="w-5 aspect-square bg-[url(./src/assets/menu.png)] dark:bg-[url(./src/assets/menu_light.png)] bg-center bg-cover bg-no-repeat"></div>
+                    <div className="w-5 aspect-square bg-[url(./dist/assets/menu.png)] dark:bg-[url(./dist/assets/menu_light.png)] bg-center bg-cover bg-no-repeat"></div>
                 </div>
             </div>
 
@@ -58,7 +58,7 @@ function Header() {
 
              <div className='hidden md:flex items-center justify-end pe-4 order-2'>
                  <div className='border dark:border-neutral-50 rounded-full p-2 cursor-pointer' onClick={()=>{change_mode()}}>
-                     <div className='w-5 h-5 bg-[url(./src/assets/dark_mode.png)] bg-center bg-cover bg-no-repeat dark:bg-[url(./src/assets/light_mode.png)]' ></div>
+                     <div className='w-5 h-5 bg-[url(./dist/assets/dark_mode.png)] bg-center bg-cover bg-no-repeat dark:bg-[url(./dist/assets/light_mode.png)]' ></div>
                  </div>
              </div>
         </header>
