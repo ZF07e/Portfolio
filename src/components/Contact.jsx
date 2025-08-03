@@ -14,7 +14,7 @@ function Contact() {
           </div>
           <div className='flex flex-col items-center justify-center order-0 '>
             <img src={letter} className='aspect-square' alt="" />
-            <a href="/Portfolio/resume/Marius Brylle Pastoral.pdf" target='_blank' className='py-4 px-8 rounded-full bg-neutral-200 dark:bg-neutral-900 font-medium mt-4'>My Resume</a>
+            <a href="/resume/Marius Brylle Pastoral.pdf" target='_blank' className='py-4 px-8 rounded-full bg-neutral-200 dark:bg-neutral-900 font-medium mt-4'>My Resume</a>
           </div>
         </div>
       </div>
