@@ -9,7 +9,7 @@ function Project_Card({info}) {
                     grid-cols-1 md:grid-cols-[auto_1fr] 
                     bg-neutral-200/70 dark:bg-neutral-900/40 pt-4 px-4' href={info.link} target='_blank'>
         <div className='mx-auto'>
-            <img src={`/public/projects/${info.image}`} className='aspect-square w-20 rounded mt-1' alt="" />
+            <img src={`../public/projects/${info.image}`} className='aspect-square w-20 rounded mt-1' alt="" />
         </div>
 
         <div>
